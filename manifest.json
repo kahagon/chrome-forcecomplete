@@ -1,0 +1,13 @@
+{
+    "manifest_version":2,
+    "name": "forcecomplete",
+    "version": "1.0",
+    "description": "force autocomplete on each input fields.",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "css": [],
+            "js": ["jquery-1.11.0.min.js", "forcecomplete.js"]
+        }
+    ]
+}
